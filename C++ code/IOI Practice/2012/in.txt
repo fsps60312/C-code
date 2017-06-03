@@ -1,0 +1,85 @@
+right
+GoRightAtStart:
+	move
+jump GoRightAtStart
+right
+GoDownAtStart:
+	move
+jump GoDownAtStart
+#assert2 Line9 255 255
+right
+jump CollectPebblesOfFirstLine
+TurnBackAndGoHomeAtFirstLine:
+right
+right
+GoHomeAtFirstLine:
+	border GoHomeAtFirstLineCompleted
+	move
+jump GoHomeAtFirstLine
+GoHomeAtFirstLineCompleted:
+put
+right
+right
+CollectPebblesOfFirstLine:
+	move
+	pebble TurnBackAndGoHomeAtFirstLine
+	border AllPebblesOfFirstLineCollected
+jump CollectPebblesOfFirstLine
+AllPebblesOfFirstLineCollected:
+right
+right
+GoHomeAfterAllPebblesOfFirstLineCollected:
+	move
+	border GoHomedAfterAllPebblesOfFirstLineCollected
+jump AllPebblesOfFirstLineCollected
+GoHomedAfterAllPebblesOfFirstLineCollected:
+left
+
+## face down
+
+jump CollectPebblesOfFirstColumn
+TurnBackAndGoHomeAtFirstColumn:
+right
+right
+GoHomeAtFirstColumn:
+	border GoHomeAtFirstColumnCompleted
+	move
+jump GoHomeAtFirstColumn
+GoHomeAtFirstColumnCompleted:
+put
+right
+right
+CollectPebblesOfFirstColumn:
+	move
+	pebble TurnBackAndGoHomeAtFirstColumn
+	border AllPebblesOfFirstColumnCollected
+jump CollectPebblesOfFirstColumn
+AllPebblesOfFirstColumnCollected:
+right
+right
+GoHomeAfterAllPebblesOfFirstColumnCollected:
+	put
+	move
+	border GoHomedAfterAllPebblesOfFirstColumnCollected
+jump AllPebblesOfFirstColumnCollected
+GoHomedAfterAllPebblesOfFirstColumnCollected:
+right
+right
+ScanEveryRow:
+	GoDownUntilPebble:
+		move
+		pebble PebbleFoundWhenGoDownUntilPebble
+		border AllFinished
+	jump GoDownUntilPebble
+	PebbleFoundWhenGoDownUntilPebble:
+	left ## face right
+	GoRightUntilPebble:
+		move
+		pebble PebbleFoundWhenGoRightUntilPebble
+		border 
+	jump GoRightUntilPebble
+	PebbleFoundWhenGoRightUntilPebble:
+	GoToFirstRow:
+jump ScanEveryRow
+AllFinished:
+halt

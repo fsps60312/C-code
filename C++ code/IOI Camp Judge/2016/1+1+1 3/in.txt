@@ -1,0 +1,7 @@
+3
+8
+abaababa
+4
+aabb
+5
+aaaaa

@@ -1,0 +1,300 @@
+Forest 1
+3 tree(s) can be cut
+
+Forest 2
+10 tree(s) can be cut
+
+Forest 3
+5 tree(s) can be cut
+
+Forest 4
+4 tree(s) can be cut
+
+Forest 5
+6 tree(s) can be cut
+
+Forest 6
+1 tree(s) can be cut
+
+Forest 7
+2 tree(s) can be cut
+
+Forest 8
+10 tree(s) can be cut
+
+Forest 9
+4 tree(s) can be cut
+
+Forest 10
+2 tree(s) can be cut
+
+Forest 11
+5 tree(s) can be cut
+
+Forest 12
+4 tree(s) can be cut
+
+Forest 13
+8 tree(s) can be cut
+
+Forest 14
+5 tree(s) can be cut
+
+Forest 15
+1 tree(s) can be cut
+
+Forest 16
+7 tree(s) can be cut
+
+Forest 17
+2 tree(s) can be cut
+
+Forest 18
+0 tree(s) can be cut
+
+Forest 19
+3 tree(s) can be cut
+
+Forest 20
+9 tree(s) can be cut
+
+Forest 21
+5 tree(s) can be cut
+
+Forest 22
+6 tree(s) can be cut
+
+Forest 23
+9 tree(s) can be cut
+
+Forest 24
+0 tree(s) can be cut
+
+Forest 25
+3 tree(s) can be cut
+
+Forest 26
+3 tree(s) can be cut
+
+Forest 27
+1 tree(s) can be cut
+
+Forest 28
+3 tree(s) can be cut
+
+Forest 29
+7 tree(s) can be cut
+
+Forest 30
+2 tree(s) can be cut
+
+Forest 31
+2 tree(s) can be cut
+
+Forest 32
+5 tree(s) can be cut
+
+Forest 33
+3 tree(s) can be cut
+
+Forest 34
+2 tree(s) can be cut
+
+Forest 35
+10 tree(s) can be cut
+
+Forest 36
+0 tree(s) can be cut
+
+Forest 37
+5 tree(s) can be cut
+
+Forest 38
+5 tree(s) can be cut
+
+Forest 39
+4 tree(s) can be cut
+
+Forest 40
+1 tree(s) can be cut
+
+Forest 41
+6 tree(s) can be cut
+
+Forest 42
+9 tree(s) can be cut
+
+Forest 43
+4 tree(s) can be cut
+
+Forest 44
+9 tree(s) can be cut
+
+Forest 45
+7 tree(s) can be cut
+
+Forest 46
+6 tree(s) can be cut
+
+Forest 47
+2 tree(s) can be cut
+
+Forest 48
+4 tree(s) can be cut
+
+Forest 49
+2 tree(s) can be cut
+
+Forest 50
+1 tree(s) can be cut
+
+Forest 51
+5 tree(s) can be cut
+
+Forest 52
+8 tree(s) can be cut
+
+Forest 53
+6 tree(s) can be cut
+
+Forest 54
+6 tree(s) can be cut
+
+Forest 55
+3 tree(s) can be cut
+
+Forest 56
+1 tree(s) can be cut
+
+Forest 57
+8 tree(s) can be cut
+
+Forest 58
+0 tree(s) can be cut
+
+Forest 59
+2 tree(s) can be cut
+
+Forest 60
+0 tree(s) can be cut
+
+Forest 61
+0 tree(s) can be cut
+
+Forest 62
+1 tree(s) can be cut
+
+Forest 63
+3 tree(s) can be cut
+
+Forest 64
+8 tree(s) can be cut
+
+Forest 65
+2 tree(s) can be cut
+
+Forest 66
+5 tree(s) can be cut
+
+Forest 67
+6 tree(s) can be cut
+
+Forest 68
+7 tree(s) can be cut
+
+Forest 69
+4 tree(s) can be cut
+
+Forest 70
+10 tree(s) can be cut
+
+Forest 71
+1 tree(s) can be cut
+
+Forest 72
+7 tree(s) can be cut
+
+Forest 73
+6 tree(s) can be cut
+
+Forest 74
+2 tree(s) can be cut
+
+Forest 75
+3 tree(s) can be cut
+
+Forest 76
+8 tree(s) can be cut
+
+Forest 77
+1 tree(s) can be cut
+
+Forest 78
+4 tree(s) can be cut
+
+Forest 79
+5 tree(s) can be cut
+
+Forest 80
+3 tree(s) can be cut
+
+Forest 81
+5 tree(s) can be cut
+
+Forest 82
+3 tree(s) can be cut
+
+Forest 83
+10 tree(s) can be cut
+
+Forest 84
+2 tree(s) can be cut
+
+Forest 85
+5 tree(s) can be cut
+
+Forest 86
+6 tree(s) can be cut
+
+Forest 87
+4 tree(s) can be cut
+
+Forest 88
+2 tree(s) can be cut
+
+Forest 89
+0 tree(s) can be cut
+
+Forest 90
+4 tree(s) can be cut
+
+Forest 91
+7 tree(s) can be cut
+
+Forest 92
+1 tree(s) can be cut
+
+Forest 93
+3 tree(s) can be cut
+
+Forest 94
+2 tree(s) can be cut
+
+Forest 95
+5 tree(s) can be cut
+
+Forest 96
+7 tree(s) can be cut
+
+Forest 97
+4 tree(s) can be cut
+
+Forest 98
+10 tree(s) can be cut
+
+Forest 99
+7 tree(s) can be cut
+
+Forest 100
+4 tree(s) can be cut
+

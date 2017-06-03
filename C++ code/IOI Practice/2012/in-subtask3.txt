@@ -1,0 +1,34 @@
+# 0 2 1
+# 0 6 1
+right
+GoRightAtStart:
+	pebble FindFirstPebble
+	move
+jump GoRightAtStart
+FindFirstPebble:
+MoveTwoCloser:
+	get
+	move
+	put
+	GoRightUntilRightPebble:
+		move
+		pebble FindRightPebble
+	jump GoRightUntilRightPebble
+	FindRightPebble:
+	right
+	right
+	get
+	move
+	pebble Finished
+	put
+	GoLeftUntilLeftPebble:
+		move
+		pebble FindLeftPebble
+	jump GoLeftUntilLeftPebble
+	FindLeftPebble:
+	right
+	right
+jump MoveTwoCloser
+Finished:
+## assert2 Line33 0 2
+halt

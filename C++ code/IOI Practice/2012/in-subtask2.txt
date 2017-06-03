@@ -1,0 +1,91 @@
+# 0 0 1
+# 0 1 1
+RunCycle:
+	pebble LeftHasPebble
+	jump LeftHasNoPebble
+	LeftHasPebble:
+	#assert2 Line7 0 0
+	get
+	right
+	move
+	pebble RightHasPebble
+	jump RightHasNoPebble 
+	RightHasPebble:
+	#assert2 Line14 0 1
+	get
+	right
+	move
+	put
+	right
+	move
+	put
+	right
+	move
+jump RunCycle
+LeftHasNoPebble:
+right
+move
+right
+move
+Lloop:
+	pebble LKeepGoing
+	jump LFinished
+	LKeepGoing:
+	#assert2 Line34 1 1
+	get
+	right
+	move
+	get
+	right
+	move
+	put
+	right
+	move
+	put
+	right
+	move
+jump Lloop
+LFinished:
+right
+move
+right
+move
+#assert2 Line53 0 0
+halt
+RightHasNoPebble:
+right
+right
+move
+put
+right
+right
+move
+right
+move
+Rloop:
+	pebble RKeepGoing
+	jump RFinished
+	RKeepGoing:
+	#assert2 Line69 1 1
+	get
+	right
+	move
+	get
+	right
+	move
+	put
+	right
+	move
+	put
+	right
+	move
+jump Rloop
+RFinished:
+right
+move
+right
+move
+right
+move
+#assert2 Line86 0 1
+halt
